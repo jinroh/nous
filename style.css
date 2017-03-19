@@ -134,8 +134,13 @@ p {
   margin: 1em 0 1em 2em;
 }
 
-.data-container header {
+.data-container header h2 {
   color: #89C8AF;
+}
+
+.data-container content h3 {
+  font-family: 'Prumo';
+  font-style: italic;
 }
 
 .data-container .container {

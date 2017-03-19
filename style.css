@@ -27,7 +27,7 @@ p {
 #faire-part {
   display: block;
   vertical-align: bottom;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;

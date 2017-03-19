@@ -126,8 +126,12 @@ p {
   color: #6EBD9E;
 }
 
-.data-container ul, .data-container p {
+.data-container p {
   margin: 1em 0 1em 0;
+}
+
+.data-container ul {
+  margin: 1em 0 1em 2em;
 }
 
 .data-container .container {

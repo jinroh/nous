@@ -17,6 +17,7 @@
 
 body {
   width: 100%;
+  background: #F9FFFC;
 }
 
 p {
@@ -24,7 +25,6 @@ p {
 }
 
 #faire-part {
-  background: #F9FFFC;
   display: block;
   vertical-align: bottom;
   width: 100vw;
@@ -123,7 +123,7 @@ p {
 }
 
 .data-container a {
-  color: #6EBD9E;
+  color: #E3C0B0;
 }
 
 .data-container p {
@@ -134,18 +134,22 @@ p {
   margin: 1em 0 1em 2em;
 }
 
+.data-container header {
+  color: #89C8AF;
+}
+
 .data-container .container {
   position: relative;
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  width: 98%;
+  width: 95%;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 650px) {
   .container {
-    width: 60%!important;
+    width: 650px!important;
   }
 }
 

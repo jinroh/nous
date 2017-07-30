@@ -1,13 +1,12 @@
 @font-face {
-  font-family: "Prumo";
-  font-weight: bold;
-  src: url("prumo_bold.otf") format("opentype");
+  font-family: "DancingScript";
+  src: url("DancingScript-Regular.ttf");
 }
 
 @font-face {
-  font-family: "Prumo";
-  font-style: italic;
-  src: url("prumo_italic.otf") format("opentype");
+  font-family: "DancingScript";
+  font-style: bold;
+  src: url("DancingScript-Bold.ttf");
 }
 
 * {
@@ -32,7 +31,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Prumo";
+  font-family: "DancingScript";
   color: #89C8AF;
 }
 
@@ -42,8 +41,6 @@ p {
   position: absolute;
   top: 20%;
   text-align: center;
-  font-style: italic;
-  letter-spacing: 0.3em;
 }
 
 #faire-part header h1 {
@@ -59,8 +56,6 @@ p {
   margin: 0 auto;
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  font-style: italic;
-  letter-spacing: 0.1em;
 }
 
 #faire-part .down {
@@ -136,10 +131,11 @@ p {
 
 .data-container header h2 {
   color: #89C8AF;
+  font-family: "DancingScript";
 }
 
 .data-container content h3 {
-  font-family: 'Prumo';
+  font-family: "DancingScript";
   font-style: italic;
 }
 
@@ -160,7 +156,7 @@ p {
 
 .data-container header {
   text-align: center;
-  font-family: 'Prumo';
+  font-family: "DancingScript";
 }
 
 .data-container header {
